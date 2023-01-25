@@ -1,0 +1,7 @@
+#include <iostream>
+
+int main(int argc, const char * argv[]) {
+    int toes=10;
+    printf("toes is %d\ntwice toes is %d\ntoes squared is %d\n",toes,toes*2,toes*toes);
+    return 0;
+}
