@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main(int argc, const char * argv[]) 
+{
+    int year;
+    printf("How old are you?");
+    std::cin>>year;
+    int days=year*365;
+    printf("So you are alive %d days.\n", days);
+    return 0;
+}
