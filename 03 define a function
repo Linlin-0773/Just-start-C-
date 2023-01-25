@@ -1,0 +1,21 @@
+#include <iostream>
+void smile(void);
+
+void smile(void)
+{
+    printf("Smile!");
+}
+
+int main(int argc, const char * argv[]) {
+    
+    smile();
+    smile();
+    smile();
+    printf("\n");
+    smile();
+    smile();
+    printf("\n");
+    smile();
+    printf("\n");
+    return 0;
+}
